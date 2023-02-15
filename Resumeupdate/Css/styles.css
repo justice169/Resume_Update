@@ -1,0 +1,267 @@
+body {
+  background-color: whitesmoke !important;
+  margin: 0 auto;
+  padding: 0;
+  --bs-body-font-family: "Source Code Pro", monospace;
+}
+
+a {
+  text-decoration: none !important;
+  color: black !important;
+}
+
+.about_me:hover {
+  color: rgb(86, 242, 38);
+}
+
+.CT:hover{
+  color: rgb(86, 242, 38);
+}
+
+.Edu_cation:hover{
+  color: rgb(86, 242, 38);
+}
+
+.Employ:hover{
+  color: rgb(86, 242, 38);
+}
+
+.Faculty {
+  font-size: clamp(18px, 2.5vw, 24px);
+}
+
+.hr_three{
+  margin-top: 10px;
+}
+
+.icon-letter-j {
+  width: 40px;
+  height: 40px;
+}
+
+.main_one {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+}
+
+.main_two {
+  align-items: stretch;
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.main_three{
+  display: flex;
+  margin-left: 10px;
+  justify-content: center;
+}
+
+.main_four{
+  margin-left: 10px;
+  justify-content: center;
+}
+
+.main_five{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.main_six{
+  margin-left: 10px;
+}
+
+.Major {
+  font-size: clamp(18px, 2.5vw, 24px);
+}
+
+.Name_Sur h1 {
+  font-size: clamp(18px, 2.5vw, 48px);
+}
+
+.profile_p {
+  border-radius: 50%;
+  height: 300px;
+  max-width: 275px;
+  object-fit: cover;
+  margin-top: 5px;
+  width: 100%;
+}
+
+.pan {
+  font-size: clamp(18px, 2.5vw, 24px);
+}
+
+.pan:hover {
+  color: rgb(86, 242, 38);
+}
+
+.pan:hover span {
+  text-shadow: 0 0 2.5px rgb(133, 242, 38), 0 0 5px rgb(133, 242, 38),
+    0 0 7.5px rgb(133, 242, 38);
+}
+.pan:hover span:nth-child(1) {
+  margin-left: 2.5px;
+}
+.pan:hover span:nth-child(2) {
+  margin-left: 2.5px;
+}
+.pan:hover span:nth-child(3) {
+  margin-left: 2.5px;
+}
+.pan:hover span:nth-child(4) {
+  margin-left: 2.5px;
+}
+
+.Sk:hover{
+  color: rgb(86, 242, 38);
+}
+
+/*----  Card  ----*/
+
+.col-lg-3{
+  margin-left: 5% !important;
+  width: 40% !important;
+}
+
+#cards_landscape_wrap-2{
+  text-align: center;
+  background: #F7F7F7;
+}
+#cards_landscape_wrap-2 .container{
+  padding-bottom: 100px;
+}
+#cards_landscape_wrap-2 a{
+  text-decoration: none;
+  outline: none;
+}
+#cards_landscape_wrap-2 .card-flyer {
+  border-radius: 5px;
+}
+#cards_landscape_wrap-2 .card-flyer .image-box{
+  background: #ffffff;
+  overflow: hidden;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.50);
+  border-radius: 5px;
+}
+#cards_landscape_wrap-2 .card-flyer .image-box img{
+  -webkit-transition:all .9s ease; 
+  -moz-transition:all .9s ease; 
+  -o-transition:all .9s ease;
+  -ms-transition:all .9s ease; 
+  width: 100%;
+  height: 200px;
+}
+#cards_landscape_wrap-2 .card-flyer:hover .image-box img{
+  opacity: 0.7;
+  -webkit-transform:scale(1.15);
+  -moz-transform:scale(1.15);
+  -ms-transform:scale(1.15);
+  -o-transform:scale(1.15);
+  transform:scale(1.15);
+}
+#cards_landscape_wrap-2 .card-flyer .text-box{
+  text-align: center;
+}
+#cards_landscape_wrap-2 .card-flyer .text-box .text-container{
+  padding: 30px 18px;
+}
+#cards_landscape_wrap-2 .card-flyer{
+  background: #FFFFFF;
+  margin-top: 50px;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -ms-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.40);
+}
+#cards_landscape_wrap-2 .card-flyer:hover{
+  background: #fff;
+  box-shadow: 0px 15px 26px rgba(0, 0, 0, 0.50);
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -ms-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+  margin-top: 50px;
+}
+#cards_landscape_wrap-2 .card-flyer .text-box p{
+  margin-top: 10px;
+  margin-bottom: 0px;
+  padding-bottom: 0px; 
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: #000000;
+}
+#cards_landscape_wrap-2 .card-flyer .text-box h6{
+  margin-top: 0px;
+  margin-bottom: 4px; 
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: 'Roboto Black', sans-serif;
+  letter-spacing: 1px;
+  color: #00acc1;
+}
+
+/*----  Skills  ----*/
+
+.Skill_container {
+  width: 100%;
+  background-color: #ddd;
+}
+
+.skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.NNK {
+  width: 100%; background-color: #f44336;
+}
+.html {
+  width: 80%; background-color: #04AA6D;
+}
+.css {
+  width: 50%; background-color: #2196F3;
+}
+.js {
+  width: 10%; background-color: #808080;
+}
+
+/*---- Contact ----*/
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.CT_container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
